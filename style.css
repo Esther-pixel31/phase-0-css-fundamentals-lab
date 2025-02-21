@@ -3,3 +3,46 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header h1 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  padding: 10px;
+  background-color: grey;
+  color: white; /* Optional: Change text color for better contrast */
+  text-decoration: none; /* Optional: Remove underline from links */
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-size: 0.8em; /* Shrink font size */
+  text-align: center;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 10px auto; /* Center the text and add vertical space */
+  text-align: center;
+}
+
+#details div {
+  float: left; /* Make details section horizontal */
+  width: 25%; /* Optional: Set width for each div */
+  text-align: center; /* Center text in each div */
+  background-color: #ff1717; /* Optional: Set a background color */
+}
+
+#details {
+  overflow: hidden; /* Clear floats */
+}
+
+section
